@@ -1,0 +1,156 @@
+* {
+    margin-left: 40px;
+    text-align: start;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+}
+
+.text-button {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.text-image {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
+    margin-top: 100px;
+}
+
+img {
+    width: 600px;
+}
+
+h1 {
+    margin: 5px auto;
+}
+
+#landkit {
+    color: blue;
+}
+
+.head {
+    font-size: 40px;
+    text-align: left;
+    margin: 0;
+    margin-left: 35px;
+}
+
+.page-doc {
+    display: flex;
+    gap: 0;
+    margin-top: 20px;
+    margin-left: -2px;
+    border-radius: 10px;
+}
+
+#but1, #but2 {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    gap: 10px;
+    border-radius: 3px;
+}
+
+#but1 {
+    background-color: blue;
+    color: white;
+    white-space: nowrap;
+}
+
+#but2 {
+    background-color: lightgray;
+    color: blue;
+}
+
+p {
+    font-size: 20px;
+}
+
+.text {
+    margin-top: 40px;
+    color: darkgray;
+}
+
+#button {
+    width: 80px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 20px;
+    white-space: nowrap;
+}
+
+h3, span {
+    color: blue;
+}
+
+
+
+@media (max-width: 768px) {
+    * {
+        margin-left: 0;
+        text-align: left;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .text-image {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        gap: 50px;
+    }
+
+    .text-button {
+        align-items: flex-start;
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .head {
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .page-doc {
+        justify-content: flex-start;
+        display: flex;
+        gap: 10px;
+    }
+
+    h3 {
+        margin-left: 0;
+    }
+}
